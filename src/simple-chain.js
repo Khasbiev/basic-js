@@ -23,7 +23,7 @@ const chainMaker = {
         return this;
     }else {
       this.stack = [];
-      throw new CustomError('Error');
+      throw new Error('Error');
     }
    },
 
